@@ -1,0 +1,31 @@
+php_flag register_globals on
+
+RewriteEngine On
+
+
+#RewriteBase /
+
+ErrorDocument 400 index.php
+ErrorDocument 401 index.php
+ErrorDocument 403 index.php
+ErrorDocument 404 index.php
+ErrorDocument 405 index.php
+ErrorDocument 408 index.php
+ErrorDocument 409 index.php
+ErrorDocument 410 index.php
+ErrorDocument 500 index.php
+ErrorDocument 501 index.php
+ErrorDocument 502 index.php
+ErrorDocument 503 index.php
+
+
+
+RewriteRule ^page/news_(.*)$ page/NewsDetails.php?newsid=$1 [L]
+RewriteRule ^(h|H)(o|O)(m|M)(e|E)$ index.php [L]
+RewriteRule ^(n|N)(e|E)(w|W)(s|S)$ page/News.php [L]
+RewriteRule ^(g|G)(a|A)(l|L)(l|L)(e|E)(r|R)(y|Y)$ page/Gallery.php [L]
+RewriteRule ^(m|M)(a|A)(t|T)(c|C)(h|H)(e|E)(s|S)$ page/Matches.php [L]
+RewriteRule ^(s|S)(q|Q)(u|U)(a|A)(d|D)$ page/Squad.php [L]
+RewriteRule ^(c|C)(o|O)(n|N)(t|T)(a|A)(c|C)(t|T)$ page/Contact.php [L]
+
+RewriteRule ^(a|A)(d|D)(m|M)(i|I)(n|N)/(p|P)(r|R)(o|O)(d|D)(u|U)(c|C)(t|T)(s|S)$ page/admin/ProductsIndex.php [L]

@@ -1,0 +1,333 @@
+﻿.result-message,
+.confirm-message {
+  display: none;
+}
+.message-code {
+  padding: 10px;
+}
+.message-code .title-section {
+  margin-bottom: 30px;
+}
+.message-code .title-section .title {
+  font-size: 24px;
+  color: #656565;
+}
+.message-code .btn-cancel {
+  background-color: #ddd;
+  color: #656565;
+}
+#alert_modal {
+  z-index: 18050;
+}
+#alert_modal .modal-body {
+  text-align: center;
+  font-size: 16px;
+}
+#alert_modal .modal-body .result-message-complete {
+  color: green;
+}
+#alert_modal .modal-body .result-message-error,
+#alert_modal .modal-body .result-message-fail {
+  color: #f00;
+}
+#loading_modal {
+  z-index: 18080;
+}
+#loading_modal .loading-indicator {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background: url(../images/ajax-loader.gif) no-repeat;
+}
+#loading_modal .modal-content {
+  text-align: center;
+}
+#loading_modal2 {
+  z-index: 18080;
+}
+#loading_modal2 .loading-indicator {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background: url(../images/ajax-loader.gif) no-repeat;
+}
+#loading_modal2 .modal-content {
+  text-align: center;
+}
+#loading_modalfile {
+  z-index: 18080;
+}
+#loading_modalfile .loading-indicator {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background: url(../images/ajax-loader.gif) no-repeat;
+}
+#loading_modalfile .modal-content {
+  text-align: center;
+}
+#dialog_modal {
+  z-index: 8000;
+}
+#dialog_modal .modal-dialog {
+  width: 80%;
+}
+.col-left {
+  text-align: left;
+}
+.col-center {
+  text-align: center;
+}
+.col-right {
+  text-align: right;
+}
+.btn-grid {
+  max-width: 140px;
+}
+.table.table-sortable th.sort {
+  background-image: url(../images/sort_both.png);
+  background-repeat: no-repeat;
+  background-position: right 9px;
+  cursor: pointer;
+}
+.table.table-sortable th.sort-asc {
+  background-image: url(../images/sort_asc.png);
+  background-position: right 12px;
+}
+.table.table-sortable th.sort-desc {
+  background-image: url(../images/sort_desc.png);
+  background-position: right 5px;
+}
+.searching {
+  margin-bottom: 10px;
+}
+.searching .search-box {
+  float: right;
+  display: table;
+  max-width: 240px;
+}
+.searching .search-box .search-box-textbox {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.searching .search-box .search-box-button {
+  display: table-cell;
+  vertical-align: middle;
+}
+.searching .tablenav {
+  float: left;
+}
+.searching .tablenav.bottom {
+  margin-top: 10px;
+}
+.paging {
+  text-align: right;
+}
+.pagination {
+  float: right;
+  margin-bottom: 20px;
+}
+.pagination li.active {
+  pointer-events: none;
+}
+.buttons {
+  padding: 10px;
+}
+.buttons div[class*="col-xs"]:first-child {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 8px;
+}
+.buttons div[class*="col-xs"]:last-child {
+  padding-left: 8px;
+  padding-right: 0;
+}
+.buttons .btn-modal {
+  max-width: 200px;
+  display: inline-block;
+}
+.tree .search-box {
+  display: table;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.tree .search-box .search-label {
+  display: table-cell;
+  width: 55px;
+}
+.tree .search-box .search-box-textbox {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 8px;
+}
+.tree .search-box .search-box-textbox input[type="text"] {
+  margin-bottom: 5px;
+}
+.tree .search-box .search-box-button {
+  display: table-cell;
+  width: 55px;
+}
+.tree .tree-content {
+  height: 320px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+  padding: 20px 10px;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 50px;
+}
+.required {
+  color: #ff0000;
+}
+.navbar {
+  border-radius: 0;
+}
+.navbar.header-fixed {
+  position: fixed;
+  z-index: 99;
+  top: -100%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.navbar.header-scrolled {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+label.error {
+  display: block;
+  color: #ff0000;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #f4f4f4;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.footer p {
+  margin: 0;
+}
+.product-version {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  font-size: 10px;
+}
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#wrapper.toggled {
+  padding-left: 250px;
+}
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+@media (min-width: 768px) {
+  #wrapper {
+    padding-left: 250px;
+  }
+  #wrapper.toggled {
+    padding-left: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+  #sidebar-wrapper {
+    width: 250px;
+  }
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+}
+@media (max-width: 767px) {
+  .navbar .navbar-collapse .nav.pull-right {
+    display: none;
+  }
+}
